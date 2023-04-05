@@ -100,3 +100,15 @@ variable "license_template" {
   type        = string
   default     = null
 }
+
+variable "additional_push_users" {
+  description = "The list of Github usernames allowed to push to the protected main branch"
+  default     = []
+  type        = list(string)
+}
+
+variable "status_checks_strict" {
+  description = "Require branches to be up to date before merging"
+  default     = true
+  type        = bool
+}
