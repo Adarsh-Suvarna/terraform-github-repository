@@ -94,3 +94,9 @@ variable "gitignore_template" {
   type        = string
   default     = null
 }
+
+variable "license_template" {
+  description = "(Optional) Use the name of the template without the extension. For example, 'mit' or 'mpl-2.0'. Available licences: https://github.com/github/choosealicense.com/tree/gh-pages/_licenses"
+  type        = string
+  default     = null
+}

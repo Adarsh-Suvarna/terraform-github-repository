@@ -13,6 +13,8 @@ resource "github_repository" "main" {
   is_template            = var.is_template
   delete_branch_on_merge = var.delete_branch_on_merge
   gitignore_template     = var.gitignore_template
+  license_template       = var.license_template
+
   dynamic "template" {
     for_each = var.template != null ? [var.template] : []
     content {

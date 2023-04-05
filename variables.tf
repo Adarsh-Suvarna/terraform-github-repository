@@ -8,6 +8,7 @@ variable "list_of_github_repo" {
     default_branch_name = string
     topics              = list(string)
     gitignore_template  = string
+    license_template    = string
   }))
   default = []
 }
