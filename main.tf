@@ -1,6 +1,7 @@
 module "github" {
+  for_each    = { for x in var.list_of_github_repo : x.repo_name => x }
   source      = "./modules"
-  repo_name   = "terraform-test-01"
-  description = "Creates a repository."
-  private     = false
+  repo_name   = each.value.repo_name
+  description = each.value.description
+  private     = each.value.private
 }

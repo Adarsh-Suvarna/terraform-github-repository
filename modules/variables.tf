@@ -38,6 +38,12 @@ variable "has_issues" {
   type        = bool
 }
 
+variable "has_downloads" {
+  description = "Set to true to enable the (deprecated) downloads features on the repository."
+  default     = true
+  type        = bool
+}
+
 variable "has_discussions" {
   description = "Set to true to enable GitHub Discussions on the repository."
   default     = false
