@@ -8,5 +8,4 @@ terraform {
 }
 
 provider "github" {
-  owner = "Adarsh-Suvarna"
 }

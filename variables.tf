@@ -4,6 +4,7 @@ variable "list_of_github_repo" {
     repo_name   = string
     description = string
     private     = bool
+    homepage_url = string
   }))
   default = []
 }

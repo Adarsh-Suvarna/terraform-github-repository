@@ -4,4 +4,5 @@ module "github" {
   repo_name   = each.value.repo_name
   description = each.value.description
   private     = each.value.private
+  homepage_url = each.value.homepage_url
 }
