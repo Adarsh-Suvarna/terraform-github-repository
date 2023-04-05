@@ -88,3 +88,9 @@ variable "default_branch_name" {
   type        = string
   default     = "main"
 }
+
+variable "gitignore_template" {
+  description = "(Optional) Use the name of the template without the extension. For example, Haskell. Available templates: https://github.com/github/gitignore"
+  type        = string
+  default     = null
+}

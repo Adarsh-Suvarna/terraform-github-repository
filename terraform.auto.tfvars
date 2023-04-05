@@ -5,13 +5,8 @@ list_of_github_repo = [
     private             = true
     homepage_url        = "https://registry.terraform.io/modules/trussworks/ecs-service/aws"
     default_branch_name = "main"
-    topics = [
-      "terraform",
-      "terraform-modules",
-      "aws-ecs",
-      "ecs",
-      "ecs-service",
-    ]
+    topics              = ["terraform", "terraform-modules"]
+    gitignore_template  = "Terraform"
   },
   {
     repo_name           = "terraform-test-02"
@@ -19,12 +14,7 @@ list_of_github_repo = [
     private             = true
     homepage_url        = "https://registry.terraform.io/modules/trussworks/ecs-service/aws"
     default_branch_name = "master"
-    topics = [
-      "terraform",
-      "terraform-modules",
-      "aws-ecs",
-      "ecs",
-      "ecs-service",
-    ]
+    topics              = ["terraform", "terraform-modules"]
+    gitignore_template  = "Terraform"
   }
 ]

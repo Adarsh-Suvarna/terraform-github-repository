@@ -7,4 +7,5 @@ module "github" {
   homepage_url        = each.value.homepage_url
   default_branch_name = each.value.default_branch_name
   topics              = each.value.topics
+  gitignore_template  = each.value.gitignore_template
 }
