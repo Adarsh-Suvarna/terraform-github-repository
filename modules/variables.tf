@@ -82,3 +82,9 @@ variable "template" {
     repository = string
   })
 }
+
+variable "default_branch_name" {
+  description = "The default branch for the repo. Branch protection settings will be applied to the branch with this name. Currently defaults to `main`."
+  type        = string
+  default     = "main"
+}
