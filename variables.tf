@@ -7,6 +7,7 @@ variable "list_of_github_repo" {
     default_branch_name   = string
     gitignore_template    = string
     license_template      = string
+    additional_push_users = list(string)
     status_checks_strict  = bool
   }))
   default = []
