@@ -7,7 +7,7 @@ list_of_github_repo = [
     default_branch_name = "dev"
     topics              = ["terraform", "terraform-modules"]
     gitignore_template  = "Terraform"
-    license_template    = "apache-2.0"
+    license_template    = ""
   },
   {
     repo_name           = "terraform-test-02"
@@ -17,6 +17,6 @@ list_of_github_repo = [
     default_branch_name = "master"
     topics              = ["terraform", "terraform-modules"]
     gitignore_template  = "Terraform"
-    license_template    = "apache-2.0"
+    license_template    = ""
   }
 ]
