@@ -1,6 +1,6 @@
-module "repository" {
-  source             = "./modules"
-  name               = "terraform-github-repository-01"
-  license_template   = "apache-2.0"
-  gitignore_template = "Terraform"
+module "github" {
+  source      = "./modules"
+  repo_name   = "terraform-test-01"
+  description = "Creates a repository."
+  private     = false
 }
