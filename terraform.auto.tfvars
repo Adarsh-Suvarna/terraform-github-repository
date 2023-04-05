@@ -6,7 +6,7 @@ list_of_github_repo = [
     default_branch_name   = "dev"
     gitignore_template    = "Terraform"
     license_template      = ""
-    additional_push_users = ["adarsha.suvarna@niveussolutions.com"]
+    additional_push_users = ["adarshasuvarna"]
     status_checks_strict  = true
   },
   {
@@ -16,7 +16,7 @@ list_of_github_repo = [
     default_branch_name   = "master"
     gitignore_template    = "Terraform"
     license_template      = ""
-    additional_push_users = ["adarshasuvarna@outlook.com"]
+    additional_push_users = ["adarshasuvarna"]
     status_checks_strict  = false
   }
 ]
