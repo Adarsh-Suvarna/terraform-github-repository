@@ -22,7 +22,7 @@ No resources.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_list_of_github_repo"></a> [list\_of\_github\_repo](#input\_list\_of\_github\_repo) | n/a | <pre>list(object({<br>    repo_name   = string<br>    description = string<br>    private     = bool<br>  }))</pre> | `[]` | no |
+| <a name="input_list_of_github_repo"></a> [list\_of\_github\_repo](#input\_list\_of\_github\_repo) | n/a | <pre>list(object({<br>    repo_name             = string<br>    description           = string<br>    private               = bool<br>    default_branch_name   = string<br>    gitignore_template    = string<br>    license_template      = string<br>    status_checks_strict  = bool<br>  }))</pre> | `[]` | no |
 
 ## Outputs
 
