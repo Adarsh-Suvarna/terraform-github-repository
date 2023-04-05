@@ -7,6 +7,7 @@ variable "list_of_github_repo" {
     homepage_url        = string
     default_branch_name = string
     topics              = list(string)
+    gitignore_template  = string
   }))
   default = []
 }
