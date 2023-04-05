@@ -21,3 +21,13 @@ resource "github_repository" "main" {
     }
   }
 }
+
+resource "github_branch" "main" {
+  repository = github_repository.main.name
+  branch     = var.default_branch_name
+}
+
+resource "github_branch_default" "main" {
+  repository = github_repository.main.name
+  branch     = github_branch.main.branch
+}
