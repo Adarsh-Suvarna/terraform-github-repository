@@ -8,5 +8,4 @@ module "github" {
   gitignore_template    = each.value.gitignore_template
   license_template      = each.value.license_template
   status_checks_strict  = each.value.status_checks_strict
-  additional_push_users = each.value.additional_push_users
 }
